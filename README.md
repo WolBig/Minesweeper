@@ -95,6 +95,9 @@ Attributes:
 | time  |
 | random  |
 
+# Save Game and Best Results
+The current game is saved by saving the model in a text file, from which we then reload the game. The saving of the best results is always done on a text file where we have initialized a value for each difficulty and in case you win the time spent is compared with the relative one. If you want to rename the values ​​we have to change the text file.
+
 # How to play?
 The game can be launched from the minesweeper.py script:
 
